@@ -45,7 +45,7 @@ h3 { /*section titles*/
 }
 
 figcaption { /*image captions*/
-    margin: 1em;
+    margin: 1em 1.5em 1em 1.5em;
     font-family: poppins, sans-serif;  
     font-weight: 400;  
     font-style: italic;
