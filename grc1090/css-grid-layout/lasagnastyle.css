@@ -1,0 +1,113 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+body {
+    background-color: rgb(220, 221, 220);
+}
+
+div.container {
+    background-color: rgb(250, 250, 250);
+    color: rgb(0 0 0);  
+    max-width: 65em;
+    margin: auto;
+}
+
+h1 { /*main title*/
+    padding: 1em 1em 0 1em;
+    background-color: rgb(255, 140, 0); /*NOTE: I had issues during class with the colors not matching when I typed them correctly in the CSS. This is a different color than the actual site from the examples, but it looks similar when rendered. I tried my best to make it as similar as possible.*/
+    color: rgb(250, 250, 250);  
+    font-family: sutro, serif;  
+    font-weight: 700;  
+    font-style: normal;
+    font-size: 2.5em;
+}
+
+h2 { /*subtitle*/
+    padding: 0.5em 1em 1em 1em;
+    background-color: rgb(255, 140, 0);
+    color: rgb(246, 221, 189);  
+    font-family: sutro, serif;  
+    font-weight: 400;  
+    font-style: normal;
+    font-size: 2em;
+    border-top: rgb(255, 140, 0) solid 0.5em;
+}
+
+h3 { /*section titles*/
+    margin: 1em;
+    font-family: sutro, serif;  
+    font-weight: 400;  
+    font-style: normal;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: rgb(255, 140, 0);
+    letter-spacing: 0.1em;
+}
+
+figure { 
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 1em;
+    margin-right: 1em;
+}
+
+figcaption { /*image captions*/
+    margin: 1em;
+    padding: 1em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
+    font-size: 1em;
+    grid-column: 2 / 3;
+}
+
+p { /*just the footer mainly*/
+    padding: 1em;
+    color: rgb(250, 250, 250);
+    background-color: rgb(255, 140, 0);
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ol {
+    margin: 2em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+}
+
+ul { /*ingredients*/
+    margin: 2em;
+    list-style-type: disc;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+}
+
+main { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2.5em;
+    grid-column-gap: 3em;
+}
+
+section.ingredients { 
+    border-top: rgb(255, 140, 0) solid 2px;
+}
+
+section.directions { 
+    border-top: rgb(255, 140, 0) solid 2px;
+}
+
+li { 
+    margin: 1em 1em 1em 0;
+}
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
