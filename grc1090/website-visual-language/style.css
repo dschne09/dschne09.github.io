@@ -184,7 +184,8 @@ p {
 	margin-bottom: 1rem;
 }
 
-span.highlight {
+span.highlight,
+span.highlight a {
 	color: var(--accent);
 	font-weight: bold;
 }
